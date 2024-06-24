@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 750px;
+    background-image: url("blue-space.jpg");
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* background-color: blue; */
+}
+
+.navheading{
+    width: 10%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    color: white;
+    font-size: large;
+}
+
+.navtools{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+    font-size: large;
+}
+
+.navtools ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navtools a{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.buttons{
+    width: 20%;
+    height: 50px;
+    display: flex;
+    /* background-color: red; */
+}
+
+.login{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+    font-size: large;
+    color: white;
+    border: 2px solid white;
+}
+
+.signup{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    font-size: large;
+    border: 2px solid aqua;
+}
+
+.midle{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    /* background-color: coral; */
+}
+
+.midleheading{
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    /* background-color: chartreuse; */
+    color: white;
+    left: 480px;
+    top: 250px;
+}
+
+.midlesearch{
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    color: white;
+    left: 350px;
+    top: 350px;
+    border: 2px solid white;
+}
+
+.midlebutton{
+    width: 10%;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    color: white;
+    left: 600px;
+    top: 430px;
+}
+
